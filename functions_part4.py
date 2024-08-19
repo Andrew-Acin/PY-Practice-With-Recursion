@@ -48,12 +48,11 @@ def pascal(rows):
 
         triangle.append(row)
 
-    return triangle
+    for row in triangle:
+        print(row)
 
-row = 5
-triangle = pascal(row)
 
-for row in triangle:
-    print(row)
 
 pascal(5)
+pascal(3)
+pascal(8)
